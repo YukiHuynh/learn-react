@@ -1,8 +1,19 @@
-import Gallery from "./Gallery";
-import { Profile  } from "./Gallery";
 
-export default function App() {
+
+export default function ToDoList() {
   return (
-    <Profile />
+    <>
+        <h1>Hedy Lamarr's Todos</h1>
+        <img 
+          src="https://i.imgur.com/yXOvdOSs.jpg" 
+          alt="Hedy Lamarr" 
+          class="photo"
+        >
+        <ul>
+          
+        </ul>
+  </img>
+    </>
+    
   )
 }
